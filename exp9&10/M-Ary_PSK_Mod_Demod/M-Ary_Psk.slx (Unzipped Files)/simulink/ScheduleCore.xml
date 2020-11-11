@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sltp_graph version="1.1" packageUris="http://schema.mathworks.com/mf0/sltp_mm/R2020b_202003251737">
+  <sltp.mm.core.Context type="sltp.mm.core.Context" uuid="e942e131-3f34-4277-8821-4d8a25955bee">
+    <priorityDirection>HighNumberLast</priorityDirection>
+    <editorState type="sltp.mm.core.EditorState" uuid="a900e326-23b8-44ec-8994-da7f8da12e28">
+      <isSynchronized>true</isSynchronized>
+    </editorState>
+    <rootTask type="sltp.mm.core.Task" uuid="f4558b38-889d-4695-b0f2-b5e309de922c">
+      <context type="sltp.mm.core.Context" uuid="e942e131-3f34-4277-8821-4d8a25955bee"/>
+      <explicit>false</explicit>
+      <name>Default</name>
+      <priority>-2147483648</priority>
+      <subgraph type="sltp.mm.core.Graph" uuid="0c6fb5f9-c5bf-4ad3-a09d-248f1d0058d4">
+        <tasks type="sltp.mm.core.Task" uuid="8dace6b8-7971-4527-ba9a-8907b2b6feed">
+          <baseTask>true</baseTask>
+          <context type="sltp.mm.core.Context" uuid="e942e131-3f34-4277-8821-4d8a25955bee"/>
+          <explicit>false</explicit>
+          <id>1</id>
+          <isTimed>true</isTimed>
+          <name>FiM</name>
+          <priority>40</priority>
+          <rates type="sltp.mm.core.Rate" uuid="0201a157-1085-42d5-a506-e51b64497ecd">
+            <annotation>FiM</annotation>
+            <color>-2139062017</color>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <offset>1.0</offset>
+              <period>0.0</period>
+            </rateSpec>
+            <sti>0</sti>
+          </rates>
+          <rates type="sltp.mm.core.Rate" uuid="e23a6d18-7de0-4ce0-a789-91b7b316f5b6">
+            <annotation>D1</annotation>
+            <color>-436207361</color>
+            <hasBlocks>true</hasBlocks>
+            <rateSpec type="sltp.mm.core.RateSpec">
+              <period>9.999999999999999e-06</period>
+            </rateSpec>
+            <sti>1</sti>
+          </rates>
+        </tasks>
+      </subgraph>
+    </rootTask>
+  </sltp.mm.core.Context>
+</sltp_graph>

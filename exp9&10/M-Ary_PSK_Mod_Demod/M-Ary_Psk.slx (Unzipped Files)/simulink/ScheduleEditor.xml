@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sltp_editor version="1.1" packageUris="http://schema.mathworks.com/mf0/DiagramEditor/R2019a_20181107 http://schema.mathworks.com/mf0/SltpSyntax/R2020b_202005081148">
+  <sltp.mm.syntax.Context type="sltp.mm.syntax.Context" uuid="d878f0e7-4fa7-4aef-87a6-1d225e9c7b1b">
+    <rootGraph type="sltp.mm.syntax.Graph" uuid="1b61a2a7-e478-4a0b-95a7-72f1f1d6d445">
+      <children type="sltp.mm.syntax.Node" uuid="c94296a6-fc22-410b-b814-c1a48da0cc3d">
+        <priority>40</priority>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#808080</color>
+          <rate>[0, 1]</rate>
+          <title>FiM</title>
+        </rates>
+        <rates type="sltp.mm.syntax.RateData">
+          <color>#e60000</color>
+          <hasBlocks>true</hasBlocks>
+          <rate>9.999999999999999e-06</rate>
+          <title>D1</title>
+        </rates>
+        <title>FiM</title>
+        <type>base</type>
+        <diagramElement type="diagram.editor.model.Entity" uuid="7f95f926-8a9b-43b6-9d8a-06f77b396d7a"/>
+        <subgraph type="sltp.mm.syntax.Graph" uuid="20ba6f90-8aab-4bfb-9699-d343cac482ea">
+          <title>FiM</title>
+          <diagramElement type="diagram.editor.model.Diagram" uuid="be8a8431-8fc6-49fc-9a8d-53ff1d4149c7"/>
+        </subgraph>
+      </children>
+      <title>Default</title>
+      <diagramElement type="diagram.editor.model.Diagram" uuid="43727395-dbbe-49a5-be82-9aabdb104099"/>
+    </rootGraph>
+  </sltp.mm.syntax.Context>
+  <diagram.editor.model.Diagram type="diagram.editor.model.Diagram" uuid="43727395-dbbe-49a5-be82-9aabdb104099">
+    <entities type="diagram.editor.model.Entity" uuid="7f95f926-8a9b-43b6-9d8a-06f77b396d7a">
+      <position>0,0</position>
+      <size>0,0,0,0</size>
+      <syntaxElement type="sltp.mm.syntax.Node" uuid="c94296a6-fc22-410b-b814-c1a48da0cc3d"/>
+      <title>FiM</title>
+      <type>base</type>
+      <subDiagram type="diagram.editor.model.Diagram" uuid="be8a8431-8fc6-49fc-9a8d-53ff1d4149c7">
+        <position>0,0</position>
+        <syntaxElement type="sltp.mm.syntax.Graph" uuid="20ba6f90-8aab-4bfb-9699-d343cac482ea"/>
+        <title>FiM</title>
+        <type>graph.Graph</type>
+      </subDiagram>
+    </entities>
+    <syntaxElement type="sltp.mm.syntax.Graph" uuid="1b61a2a7-e478-4a0b-95a7-72f1f1d6d445"/>
+    <title>Default</title>
+    <type>graph.Graph</type>
+  </diagram.editor.model.Diagram>
+</sltp_editor>

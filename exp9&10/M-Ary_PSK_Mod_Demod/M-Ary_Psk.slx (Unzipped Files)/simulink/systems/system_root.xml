@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[23, 14, 1440, 713]</P>
+  <P Name="SystemRect">[0.000000, 0.000000, 0.000000, 0.000000]</P>
+  <P Name="Open">on</P>
+  <P Name="SetExecutionDomain">off</P>
+  <P Name="ExecutionDomainType">Deduce</P>
+  <P Name="ZoomFactor">125</P>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">11</P>
+  <P Name="SimulinkSubDomain">Simulink</P>
+  <Block BlockType="Reference" Name="AWGN&#xA;Channel" SID="4">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[275, 66, 370, 124]</P>
+    <P Name="ZOrder">8</P>
+    <P Name="LibraryVersion">1.501</P>
+    <P Name="UserDataPersistent">on</P>
+    <P Name="UserData" Ref="bdmxdata:UserData_4"/>
+    <P Name="SourceBlock">commchan3/AWGN
+Channel</P>
+    <P Name="SourceType">AWGN Channel</P>
+    <P Name="SourceProductBaseCode">CM</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="InputProcessing">Columns as channels (frame based)</P>
+      <P Name="seed">37</P>
+      <P Name="noiseMode">Signal to noise ratio  (Eb/No)</P>
+      <P Name="EbNodB">10</P>
+      <P Name="EsNodB">10</P>
+      <P Name="SNRdB">10</P>
+      <P Name="bitsPerSym">log2(M)</P>
+      <P Name="Ps">1</P>
+      <P Name="Tsym">log2(M)*1e-7</P>
+      <P Name="variance">1</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="ConstellationDiagram" Name="Constellation Diagram" SID="5">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[270, 207, 330, 263]</P>
+    <P Name="ZOrder">9</P>
+    <P Name="ScopeSpecificationString">comm.scopes.ConstellationDiagramBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true),extmgr.Configuration(&apos;Visuals&apos;,&apos;Constellation&apos;,true,&apos;MinYLim&apos;,&apos;-1.1237&apos;,&apos;MaxYLim&apos;,&apos;1.2933&apos;,&apos;MinXLim&apos;,&apos;-1.1062&apos;,&apos;MaxXLim&apos;,&apos;1.3108&apos;,&apos;LineProperties&apos;,struct(&apos;DisplayName&apos;,&apos;&apos;,&apos;Color&apos;,[1 1 0.0666666666666667],&apos;LineStyle&apos;,&apos;none&apos;,&apos;LineWidth&apos;,0.5,&apos;Marker&apos;,&apos;.&apos;,&apos;MarkerSize&apos;,6,&apos;MarkerEdgeColor&apos;,&apos;auto&apos;,&apos;MarkerFaceColor&apos;,&apos;none&apos;,&apos;Visible&apos;,&apos;on&apos;),&apos;AuxLineProperties&apos;,struct(&apos;LineColor&apos;,[1 1 0.0666666666666667],&apos;LineStyle&apos;,&apos;none&apos;,&apos;TrajLineWidth&apos;,0.5,&apos;RefConStyle&apos;,&apos;+&apos;,&apos;RefConSize&apos;,6,&apos;RefConColor&apos;,[1 0 0],&apos;RefConLineWidth&apos;,0.5),&apos;AxesProperties&apos;,struct(&apos;Color&apos;,[0 0 0],&apos;XColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;YColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ZColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922])),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2020b&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true)),&apos;Version&apos;,&apos;2020b&apos;,&apos;Position&apos;,[761 438 410 300])</P>
+  </Block>
+  <Block BlockType="ConstellationDiagram" Name="Constellation Diagram1" SID="6">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[415, 207, 475, 263]</P>
+    <P Name="ZOrder">10</P>
+    <P Name="ScopeSpecificationString">comm.scopes.ConstellationDiagramBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true),extmgr.Configuration(&apos;Visuals&apos;,&apos;Constellation&apos;,true,&apos;AxesProperties&apos;,struct(&apos;Color&apos;,[0 0 0],&apos;XColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;YColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ZColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922]),&apos;LineProperties&apos;,struct(&apos;DisplayName&apos;,&apos;&apos;,&apos;Color&apos;,[1 1 0.0666666666666667],&apos;LineStyle&apos;,&apos;none&apos;,&apos;LineWidth&apos;,0.5,&apos;Marker&apos;,&apos;.&apos;,&apos;MarkerSize&apos;,6,&apos;MarkerEdgeColor&apos;,&apos;auto&apos;,&apos;MarkerFaceColor&apos;,&apos;none&apos;,&apos;Visible&apos;,&apos;on&apos;),&apos;AuxLineProperties&apos;,struct(&apos;LineColor&apos;,[1 1 0.0666666666666667],&apos;LineStyle&apos;,&apos;none&apos;,&apos;TrajLineWidth&apos;,0.5,&apos;RefConStyle&apos;,&apos;+&apos;,&apos;RefConSize&apos;,6,&apos;RefConColor&apos;,[1 0 0],&apos;RefConLineWidth&apos;,0.5)),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2020b&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true)),&apos;Version&apos;,&apos;2020b&apos;,&apos;Position&apos;,[760 374 359 366],&apos;VisibleAtModelOpen&apos;,&apos;on&apos;)</P>
+  </Block>
+  <Block BlockType="Display" Name="Display" SID="9">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[665, 140, 755, 170]</P>
+    <P Name="ZOrder">13</P>
+    <P Name="Decimation">1</P>
+  </Block>
+  <Block BlockType="Reference" Name="Error Rate&#xA;Calculation" SID="7">
+    <P Name="Ports">[2, 1]</P>
+    <P Name="Position">[530, 27, 605, 78]</P>
+    <P Name="ZOrder">11</P>
+    <P Name="LibraryVersion">8.0</P>
+    <P Name="SourceBlock">commsink2/Error Rate
+Calculation</P>
+    <P Name="SourceType">Error Rate Calculation</P>
+    <P Name="SourceProductBaseCode">CM</P>
+    <InstanceData>
+      <P Name="MultiThreadCoSim">auto</P>
+      <P Name="N">0</P>
+      <P Name="st_delay">1</P>
+      <P Name="cp_mode">Entire frame</P>
+      <P Name="subframe">[]</P>
+      <P Name="PMode">Port</P>
+      <P Name="WsName">ErrorVec</P>
+      <P Name="RsMode2">off</P>
+      <P Name="stop">on</P>
+      <P Name="numErr">100</P>
+      <P Name="maxBits">1e8</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="M-PSK&#xA;Demodulator&#xA;Baseband" SID="10">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[415, 70, 490, 120]</P>
+    <P Name="ZOrder">14</P>
+    <P Name="LibraryVersion">1.691</P>
+    <P Name="SourceBlock">commdigbbndpm3/M-PSK
+Demodulator
+Baseband</P>
+    <P Name="SourceType">M-PSK Demodulator Baseband</P>
+    <P Name="SourceProductName">Communications Toolbox</P>
+    <InstanceData>
+      <P Name="MultiThreadCoSim">auto</P>
+      <P Name="M">8</P>
+      <P Name="OutType">Integer</P>
+      <P Name="DecType">Hard decision</P>
+      <P Name="VarSource">Dialog</P>
+      <P Name="Variance">1</P>
+      <P Name="Dec">Gray</P>
+      <P Name="Mapping">[0:7]</P>
+      <P Name="Ph">pi/8</P>
+      <P Name="outDtype1">Inherit via internal rule</P>
+      <P Name="outDtype2">Inherit via internal rule</P>
+      <P Name="derotateFactorDTMode">Same word length as input</P>
+      <P Name="derotateFactorWordLen">16</P>
+      <P Name="derotateFactorDataTypeStr">Inherit: Same word length as input</P>
+      <P Name="derotateFactorLastDataTypeStr">Inherit: Same word length as input</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="M-PSK&#xA;Modulator&#xA;Baseband1" SID="3">
+    <P Name="Ports">[1, 1]</P>
+    <P Name="Position">[155, 69, 230, 121]</P>
+    <P Name="ZOrder">7</P>
+    <P Name="LibraryVersion">1.691</P>
+    <P Name="SourceBlock">commdigbbndpm3/M-PSK
+Modulator
+Baseband</P>
+    <P Name="SourceType">M-PSK Modulator Baseband</P>
+    <P Name="SourceProductName">Communications Toolbox</P>
+    <InstanceData>
+      <P Name="MultiThreadCoSim">auto</P>
+      <P Name="M">8</P>
+      <P Name="InType">Integer</P>
+      <P Name="Enc">Gray</P>
+      <P Name="Mapping">[0:7]</P>
+      <P Name="Ph">pi/8</P>
+      <P Name="outDtype">double</P>
+      <P Name="outWordLen">16</P>
+      <P Name="outUDDataType">sfix(16)</P>
+      <P Name="outFracLenMode">Best precision</P>
+      <P Name="outFracLen">15</P>
+      <P Name="outDataTypeStr">double</P>
+      <P Name="outLastDataTypeStr">double</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Random Integer&#xA;Generator" SID="1">
+    <P Name="Ports">[0, 1]</P>
+    <P Name="Position">[45, 72, 125, 118]</P>
+    <P Name="ZOrder">5</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">11.0</P>
+    <P Name="SourceBlock">commrandsrc3/Random Integer
+Generator</P>
+    <P Name="SourceType">Random Integer Generator</P>
+    <P Name="SourceProductBaseCode">CM</P>
+    <InstanceData>
+      <P Name="SetSize">M</P>
+      <P Name="SeedSource">Parameter</P>
+      <P Name="Seed">37</P>
+      <P Name="SampleTime">1e-7</P>
+      <P Name="SamplesPerFrame">100</P>
+      <P Name="OutputDataType">double</P>
+      <P Name="SimulateUsing">Interpreted execution</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="ToWorkspace" Name="To Workspace" SID="8">
+    <P Name="Ports">[1]</P>
+    <P Name="Position">[665, 34, 715, 76]</P>
+    <P Name="ZOrder">12</P>
+    <P Name="VariableName">yout</P>
+    <P Name="MaxDataPoints">inf</P>
+    <P Name="Save2DSignal">2-D array (concatenate along first dimension)</P>
+    <P Name="SampleTime">-1</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">1</P>
+    <P Name="Src">3#out:1</P>
+    <P Name="Points">[15, 0]</P>
+    <Branch>
+      <P Name="ZOrder">12</P>
+      <P Name="Points">[0, 140]</P>
+      <P Name="Dst">5#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">11</P>
+      <P Name="Dst">4#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">2</P>
+    <P Name="Src">4#out:1</P>
+    <P Name="Points">[8, 0]</P>
+    <Branch>
+      <P Name="ZOrder">21</P>
+      <P Name="Dst">10#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">10</P>
+      <P Name="Points">[0, 140]</P>
+      <P Name="Dst">6#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">3</P>
+    <P Name="Src">1#out:1</P>
+    <P Name="Points">[8, 0]</P>
+    <Branch>
+      <P Name="ZOrder">7</P>
+      <P Name="Points">[0, -55]</P>
+      <P Name="Dst">7#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">6</P>
+      <P Name="Dst">3#in:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">16</P>
+    <P Name="Src">10#out:1</P>
+    <P Name="Points">[15, 0; 0, -30]</P>
+    <P Name="Dst">7#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">13</P>
+    <P Name="Src">7#out:1</P>
+    <P Name="Points">[22, 0]</P>
+    <Branch>
+      <P Name="ZOrder">15</P>
+      <P Name="Points">[0, 100]</P>
+      <P Name="Dst">9#in:1</P>
+    </Branch>
+    <Branch>
+      <P Name="ZOrder">14</P>
+      <P Name="Dst">8#in:1</P>
+    </Branch>
+  </Line>
+</System>
