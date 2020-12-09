@@ -1,0 +1,47 @@
+Algorithm:
+
+(Modulation)
+
+Procedure followed to obtain the BPSK signal is as follows:
+1) Define the transmitted signal
+-Variables to be defined are:- number of bits, size of transmitted signal, 
+binary signal 0 or 1 as message to be transmitted, bit period (second).
+
+2) Represent the input signal as digital signal
+-If input signal is 1 append in an array
+else if input signal is 0 append in array
+-Define time of the signal in MATLAB
+-Plot the transmitting signal
+
+3) Define BPSK modulation
+-Declare amplitude of carrier signal
+-Declare carrier frequecncies for bit 1 
+-Declare carrier phase for 1 and 0 respectively
+-If input signal is 1 add carrier phase with carrier signal and append in an array 
+else if input signal is 0 add carrier phase with carrier signal and append in array
+-Plot modulated signal
+
+4) Transmit Signal
+
+(Demodulation)
+
+1) Receive signal with/without noise
+
+2) Define BPSK demodulation
+-Define carrier signal as earlier
+-Multiply received signal with carrier signal
+-Integrate the received signal with lower frequecy i.e pass signal through LPF
+-Define logic level 1 or 0 depending upon the output amplitude
+-If received amplitude is greater than average amplitude then logic 1 
+else if received amplitude is less than average amplitude then logic 0 
+-As phase change of 90 was introduced for each bit, 
+the signals either add or cancel each other out
+-Append solution in array 
+
+3) Represent output signal as digital signal
+-Define received signal as array
+-Plot received signal
+
+4) End of demodulation
+
+
